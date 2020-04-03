@@ -28,3 +28,8 @@ selenium.common.exceptions.WebDriverException: Message: unknown error: cannot ge
 from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
   (Session info: chrome=80.0.3987.149)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.18362 x86_64)
+
+   Observations: driver.maximize_window() is not listening to the localhost port and established the connections.
+   Fix for the original code will be provided tommorow EOD.(04-04-2020)
+   workaround: try installing new automation extension for the chrome selenium webdriver. Expections not occuring.
+   
